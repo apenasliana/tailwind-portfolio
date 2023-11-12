@@ -32,7 +32,7 @@ export default function Intro() {
           >💜</motion.span>
         </div>
       </div>
-        <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        <motion.h1 className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
         initial={{opacity:0, y:100}}
         animate={{opacity:1, y:0}}
         >
@@ -41,7 +41,7 @@ export default function Intro() {
           </span> I'm from 
           <span className='font-bold'> Brazil </span>
            and really into technology and programming!
-        </motion.p>
+        </motion.h1>
       <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
         initial={{opacity:0, y:100}}
         animate={{opacity:1, y: 0}}
